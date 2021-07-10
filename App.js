@@ -11,7 +11,7 @@ export default function App() {
         Update Name Data =>
       </Text>
       <Text style = {{marginBottom: 20, textAlign: 'center', fontSize: 28, color: 'blue', fontWeight: 'bold'}}>
-        
+        Using Class Component.
       </Text>
     </View>
   );
