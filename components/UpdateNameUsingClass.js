@@ -11,7 +11,7 @@ export default class UpdateNameUsingClass extends React.Component {
                 </View>
 
                 <View style = {styles.view}>
-                    
+                <Text style = {{marginTop: 20, fontSize: 18, fontWeight: 'bold', color: 'green'}}>Updated Name: </Text>
                 </View>
             </View>
         );
