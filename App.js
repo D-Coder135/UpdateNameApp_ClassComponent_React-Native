@@ -8,7 +8,7 @@ export default function App() {
   return(
     <View style = {styles.container}>
       <Text style = {styles.paragraph}>
-        
+        Update Name Data =>
       </Text>
     </View>
   );
