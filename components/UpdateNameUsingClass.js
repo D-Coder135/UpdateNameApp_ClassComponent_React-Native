@@ -14,7 +14,7 @@ export default class UpdateNameUsingClass extends React.Component {
     }
 
     updateNameOnPress = () => {
-       
+        this.setState({previousName: this.state.name, name: this.state.enteredName, enteredName: ""});
     }
 
     render() {
