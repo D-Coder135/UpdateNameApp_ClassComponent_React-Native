@@ -32,7 +32,7 @@ export default class UpdateNameUsingClass extends React.Component {
 
                 <TextInput style = {styles.inputText} placeholder = "Enter a new name." onChangeText = {this.updatingName} value = {this.state.enteredName}></TextInput>
 
-                <Button title = 'Update Name'></Button>
+                <Button title = 'Update Name' onPress = {this.updateNameOnPress}></Button>
             </View>
         );
     }
