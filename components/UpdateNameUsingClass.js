@@ -9,6 +9,10 @@ export default class UpdateNameUsingClass extends React.Component {
         enteredName: ''
     }
 
+    updatingName = (newName) => {
+        this.setState({enteredName: newName})
+    }
+
     render() {
         return(
             <View style = {styles.container}>
