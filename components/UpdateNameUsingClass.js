@@ -6,7 +6,7 @@ export default class UpdateNameUsingClass extends React.Component {
         return(
             <View style = {styles.container}>
                 <View style = {styles.view}>
-                    
+                <Text style = {{marginHorizontal: 5, color: 'red', fontWeight: 'bold', fontSize: 18}}>Previous Name:</Text>
                 </View>
             </View>
         );
