@@ -2,22 +2,29 @@ import * as React from 'react';
 import { Text, View, StyleSheet, Button, TextInput } from 'react-native';
 
 export default class UpdateNameUsingClass extends React.Component {
+
+    state = {
+        name: "Devansh",
+        previousName: "Not Updated Yet!",
+        enteredName: ''
+    }
+
     render() {
         return(
             <View style = {styles.container}>
                 <View style = {styles.view}>
                 <Text style = {{marginHorizontal: 5, color: 'red', fontWeight: 'bold', fontSize: 18}}>Previous Name:</Text>
                 <Text style = {{marginLeft: 2, fontWeight: 'bold', fontSize: 18}}>  </Text>
-                <Text style = {{margin: 20, marginLeft: 2, fontWeight: 'bold', fontSize: 18}}>  </Text>
                 </View>
-
-                <TextInput style = {styles.inputText} onChangeText = {} placeholder = "Enter a new name." value = {}></TextInput>
-
-                <Button title = 'Update Name' onPress = {}></Button>
 
                 <View style = {styles.view}>
                 <Text style = {{marginTop: 20, fontSize: 18, fontWeight: 'bold', color: 'green'}}>Updated Name: </Text>
+                <Text style = {{margin: 20, marginLeft: 2, fontWeight: 'bold', fontSize: 18}}> </Text>
                 </View>
+
+                <TextInput style = {styles.inputText} placeholder = "Enter a new name." ></TextInput>
+
+                <Button title = 'Update Name'></Button>
             </View>
         );
     }
