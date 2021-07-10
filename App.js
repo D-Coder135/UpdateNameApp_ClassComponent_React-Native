@@ -15,7 +15,7 @@ export default function App() {
       </Text>
 
       <Card>
-        
+        <UpdateNameUsingClass />
       </Card>
     </View>
   );
