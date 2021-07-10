@@ -5,7 +5,9 @@ export default class UpdateNameUsingClass extends React.Component {
     render() {
         return(
             <View style = {styles.container}>
-
+                <View style = {styles.view}>
+                    
+                </View>
             </View>
         );
     }
