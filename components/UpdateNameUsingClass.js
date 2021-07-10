@@ -13,6 +13,10 @@ export default class UpdateNameUsingClass extends React.Component {
         this.setState({enteredName: newName})
     }
 
+    updateNameOnPress = () => {
+       
+    }
+
     render() {
         return(
             <View style = {styles.container}>
