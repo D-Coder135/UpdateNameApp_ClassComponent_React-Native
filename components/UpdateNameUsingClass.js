@@ -30,7 +30,7 @@ export default class UpdateNameUsingClass extends React.Component {
                 <Text style = {{margin: 20, marginLeft: 2, fontWeight: 'bold', fontSize: 18}}> {this.state.name} </Text>
                 </View>
 
-                <TextInput style = {styles.inputText} placeholder = "Enter a new name." ></TextInput>
+                <TextInput style = {styles.inputText} placeholder = "Enter a new name." onChangeText = {this.updatingName} ></TextInput>
 
                 <Button title = 'Update Name'></Button>
             </View>
